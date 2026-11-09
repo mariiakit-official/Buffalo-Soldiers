@@ -29,6 +29,6 @@ The site uses relative file paths and works as a project site without any adjust
 Edit the `soldiers` array in `app.js` for character profiles; edit `index.html` for story sections; edit `styles.css` for layout and colors. Each artwork lives in `assets/`.
 
 ## Notes
-The historical figures are **symbolic artistic inspirations**, not factual representations of their psychological characteristics. This presentation reflects the author's personal interpretation. Review first-person text for accuracy before sharing publicly.
+The historical figures are **symbolic artistic inspirations**, not factual representations of their psychological characteristics. This presentation reflects the author's personal interpretation.
 
 Fonts load from Google Fonts when internet access is available and fall back to system fonts otherwise. No analytics or tracking scripts are included.
