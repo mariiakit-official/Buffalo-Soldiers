@@ -1,5 +1,7 @@
 # Buffalo Soldiers — My Inner Army
 
+**Live site:** https://mariiakit-official.github.io/Buffalo-Soldiers/
+
 An interactive visual story built as a **static website**, not a video game. Eight original illustrated historical-inspired female characters embody personal and professional traits for the Buffalo Soldiers self-reflection assignment.
 
 ## Features
