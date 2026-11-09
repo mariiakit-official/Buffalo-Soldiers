@@ -5,3 +5,10 @@
 .battle-conflict p{font-size:.86rem;line-height:1.75;margin:9px 0 0;color:#ddd7d0}
 .strategy li .lead-by{font-style:normal;font-weight:600;color:var(--gold);font-size:.78rem}
 .outcome.lesson{margin-top:14px}
+
+/* Show the full character card (including the name banner) in the profile dialog */
+.profile-art img{height:auto;max-height:90vh;object-fit:contain;object-position:top center;display:block}
+@media(max-width:680px){
+.profile-art{height:auto;overflow:visible;display:flex;justify-content:center}
+.profile-art img{width:100%;max-width:420px;height:auto;max-height:none;object-fit:contain}
+}
