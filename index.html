@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#11152a" />
+  <meta name="description" content="Buffalo Soldiers: My Inner Army — an interactive reflection on courage, care, growth, leadership and the women who inspire me." />
+  <title>Buffalo Soldiers | My Inner Army</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header" id="top">
+    <a class="brand" href="#top" aria-label="Buffalo Soldiers, home"><span class="brand-mark">✦</span><span>BUFFALO <em>SOLDIERS</em></span></a>
+    <nav aria-label="Main navigation" class="nav">
+      <a href="#soldiers">Meet my soldiers</a><a href="#relationships">Relationships</a><a href="#battle">The challenge</a><a href="#reflection">Reflection</a>
+    </nav>
+    <button id="menuToggle" class="mobile-toggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open navigation">☰</button>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" hidden><a href="#soldiers">Meet my soldiers</a><a href="#relationships">Relationships</a><a href="#battle">The challenge</a><a href="#reflection">Reflection</a></nav>
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy container">
+        <p class="eyebrow">A PERSONAL STORY · EIGHT INNER SOLDIERS</p>
+        <h1 id="heroTitle">The strongest army<br />is the one <i>within.</i></h1>
+        <p class="lede">Eight women from history inspire eight parts of who I am. Some protect me. Some challenge me. All of them have something to teach me about courage, balance, and leadership.</p>
+        <div class="hero-actions"><a class="button primary" href="#soldiers">Explore my inner army <span aria-hidden="true">↗</span></a><a class="button ghost" href="#battle">Discover my challenge</a></div>
+        <p class="micro">An interactive visual reflection · No gameplay or scores · Inspired by the Buffalo Soldiers assignment</p>
+      </div>
+      <div class="hero-mosaic" aria-hidden="true"><img src="assets/courage.webp" alt=""/><img src="assets/choice.webp" alt=""/><img src="assets/precision.webp" alt=""/><img src="assets/ambition.webp" alt=""/></div>
+    </section>
+
+    <section class="intro container" aria-labelledby="introTitle"><div><p class="eyebrow">THE IDEA</p><h2 id="introTitle">Different parts.<br/><i>One person.</i></h2></div><p>My life has taken me across countries, careers, and unfamiliar situations. I have learned that growth doesn't mean eliminating doubt or trying to be perfect. It means understanding my strengths, recognizing my limits, and choosing how to respond. These historical figures are creative inspirations—not literal portraits or claims that our lives are the same.</p></section>
+
+    <section id="soldiers" class="soldiers-section" aria-labelledby="soldiersTitle"><div class="container"><div class="section-head"><div><p class="eyebrow">01 · THE INNER ARMY</p><h2 id="soldiersTitle">Meet my <i>eight soldiers</i></h2></div><p>Choose a character to discover her strengths, vulnerabilities, allies, conflicts, and the armor she needs to grow.</p></div>
+      <div class="filters" role="group" aria-label="Filter soldier cards"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All eight <span>08</span></button><button class="filter" type="button" data-filter="personal" aria-pressed="false">Personal · Dark fantasy <span>04</span></button><button class="filter" type="button" data-filter="professional" aria-pressed="false">Professional · Hybrid universe <span>04</span></button></div>
+      <div id="soldierGrid" class="soldier-grid"></div><p class="helper">Character illustrations are fictional interpretations inspired by historical women.</p>
+    </div></section>
+
+    <section id="relationships" class="relationships-section" aria-labelledby="relationshipsTitle"><div class="container"><div class="section-head"><div><p class="eyebrow">02 · ALLIES AND TENSIONS</p><h2 id="relationshipsTitle">Not every soldier <i>agrees.</i></h2></div><p>My internal voices can work together—or pull me in different directions. Understanding that tension helps me respond intentionally.</p></div><div class="relations-grid" id="relationsGrid"></div><div class="quote-card"><span class="quote-mark" aria-hidden="true">“</span><p>My role is not to silence any part of myself. It is to decide which voice should lead—and when.</p></div></div></section>
+
+    <section id="battle" class="battle-section" aria-labelledby="battleTitle"><div class="container battle-layout"><div class="battle-left"><p class="eyebrow">03 · PREPARE FOR WAR</p><h2 id="battleTitle">The battle of <i>perfection.</i></h2><p class="battle-kicker">A realistic interpersonal challenge</p><p>Our i.c.stars team is preparing for a project demonstration, and I want everything to be perfect. Deep down, I am afraid that any mistake will reflect on me and show that I am not good enough. So I take on most of the work myself, double-check everything, and struggle to hand tasks to my teammates. I am tired and stretched thin, but I cannot let go. The real battle is not with my team. It is with my need to be perfect, and it is affecting how I work with them.</p><p><strong>Who is involved:</strong> me and my fear of imperfection, my project teammates, who could carry more if I made space for them, and the demo deadline that makes every detail feel critical.</p><div class="battle-soldiers"><strong>Soldiers deployed</strong><span>Precision</span><span>Resilience</span><span>Devotion</span><span>Ambition</span><span>Leadership</span><span>Choice</span><span>Courage</span></div><div class="battle-conflict"><span>THE INTERNAL CONFLICT</span><p>Precision leads the charge: “It has to be flawless, so I should do it myself.” Resilience says, “Keep pushing — you can handle it,” and Ambition wants the demo to be impressive. On the other side, Leadership and Courage answer: “Good enough and shared is better than perfect and alone.” Choice is caught in the middle, worried that letting go means the work, and I, will be judged as not good enough.</p></div></div><div class="battle-right"><h3>How I choose to lead my army</h3><ol class="strategy"><li><strong>Pause and notice the overload <em class="lead-by">· Choice</em></strong><p>Notice when perfectionism is driving me, and separate real risks from my fear of being seen as not good enough.</p></li><li><strong>Share the work by strengths <em class="lead-by">· Leadership</em></strong><p>Divide the remaining tasks based on each teammate’s skills and interests, so everyone owns a part of the demo.</p></li><li><strong>Define “good enough” <em class="lead-by">· Precision</em></strong><p>Agree together on what “done” looks like, focus my checking on the highest risks, and stop redoing other people’s work.</p></li><li><strong>Ask for help openly <em class="lead-by">· Courage</em></strong><p>“I’ve been trying to make everything perfect and took on too much. Can we rebalance the tasks so we all own a part of the demo?”</p></li><li><strong>Protect my energy <em class="lead-by">· Resilience + Devotion</em></strong><p>Rest and keep time for my family, so I can show up as my best self for the team and at home.</p></li></ol><div class="outcome"><span>THE BEST POSSIBLE OUTCOME</span><p>The work is shared fairly, my teammates take ownership, and we deliver a strong demo together. It may not be perfect, but it is excellent, and I no longer carry everything alone or burn out trying to be flawless.</p></div><div class="outcome lesson"><span>LEADERSHIP LESSON</span><p>My need to be perfect was really a fear of not being good enough. Leadership means accepting that shared work can be imperfect and still be excellent, and trusting others to contribute.</p></div></div></div></section>
+
+    <section id="reflection" class="reflection-section"><div class="container reflection-layout"><div><p class="eyebrow">04 · MY REFLECTION</p><h2>Becoming the <i>commander</i><br/>of my own army.</h2></div><div class="reflection-text"><p>My journey from law and entrepreneurship into technology has taught me that growth is rarely comfortable. Courage helps me start. Resilience helps me continue. Devotion reminds me what matters most.</p><p>Precision wants to get the details right, while Curiosity wants to try something new. Ambition looks toward the future, while Choice reminds me to pause and think. Leadership is learning to listen to all of them and move forward with intention.</p><p>I want to become a confident technology professional, a thoughtful leader, and a compassionate human being. Success isn't only about a title or an achievement; it is also about how I treat others and the example I set for my daughter.</p><p class="reflection-signature">I am still becoming. <span>And that is my strength.</span></p></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><div><span class="brand-mark">✦</span> BUFFALO SOLDIERS <small>My Inner Army · Historical-inspired character exploration</small></div><a href="#top">Back to top ↑</a></div></footer>
+
+  <dialog id="profileDialog" class="profile-dialog" aria-labelledby="dialogTitle"><div class="dialog-inner"><button class="dialog-close" type="button" aria-label="Close character profile" id="closeDialog">×</button><div id="dialogContents"></div></div></dialog>
+</body>
+</html>
